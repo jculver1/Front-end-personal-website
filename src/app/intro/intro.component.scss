@@ -1,0 +1,10 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+
+.item{
+    flex-grow: 1;
+}
