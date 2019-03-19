@@ -1,0 +1,28 @@
+<!-- <div class='container'>
+    <div class="project" class="shadow" *ngFor="let project of projects">
+        <div class="front face">
+            <h3>{{project.name}}</h3>
+        </div>
+        <div class="back face">
+           <p>{{project.description}}</p>
+           <ul *ngFor="let item of project.tech">
+               <li>{{item}}</li>
+           </ul>
+        </div>
+    </div>
+</div> -->
+
+<div id="f1_container" *ngFor="let project of projects">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="../assets/images/cat.jpg"/>
+    <div class="text-block">
+        <h1>{{project.title}}</h1>
+    </div>
+  </div>
+  <div class="back face center">
+    <p>This is nice for exposing more information about an image.</p>
+    <p>Any content can go here.</p>
+  </div>
+</div>
+</div>
