@@ -1,27 +1,19 @@
-.skills-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 800px;
+  justify-content: space-between;
 }
 
+.aboutRow{
+  width: 49%;
+  height: 99%;
+  background: grey;
+}
 
-// .pacman {
-//     width: 0px;
-//     height: 0px;
-//     border-right: 70px solid transparent;
-//     border-top: 70px solid red;
-//     border-left: 70px solid red;
-//     border-bottom: 70px solid red;
-//     border-top-left-radius: 70px;
-//     border-top-right-radius: 70px;
-//     border-bottom-left-radius: 70px;
-//     border-bottom-right-radius: 70px;
-//   }
-
-  .circle {
-    width: 80px;
-    height: 80px;
-    background: yellowgreen;
-    border-radius: 50%
-  }
-
+.skillsRow{
+  width: 49%;
+  height: 99%;
+  background: yellow;
+}
