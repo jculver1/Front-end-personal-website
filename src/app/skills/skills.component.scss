@@ -7,13 +7,30 @@
 }
 
 .aboutRow{
-  width: 49%;
   height: 99%;
-  background: grey;
+  width:49%;
 }
 
 .skillsRow{
-  width: 49%;
   height: 99%;
-  background: yellow;
+  width:49%;
+}
+
+
+// .skillBox{
+//  border: 1px solid black;
+// }
+
+// .listContainer{
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+// }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
 }

@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
+skills:{} = 
+  {languages: ['JavaScript', 'Python', 'SQL', 'CSS', 'HTML'], frameworks: ['React', 'Angular', 'Django', 'Express', 'Bootstrap', 'Materialize', 'Flexbox'], other:['API-integration', 'Agile Programming']
+}
   constructor() { }
 
   ngOnInit() {
