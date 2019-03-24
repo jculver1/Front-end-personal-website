@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @Component({
   selector: 'app-root',

@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: 800px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .aboutRow{
@@ -11,10 +11,10 @@
   width:49%;
 }
 
-.skillsRow{
-  height: 99%;
-  width:49%;
-}
+// .skillsRow{
+  
+
+// }
 
 
 // .skillBox{
@@ -29,8 +29,8 @@
 // }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background: red;
   border-radius: 50%
 }
