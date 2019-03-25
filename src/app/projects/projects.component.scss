@@ -40,11 +40,12 @@
   transform-style: preserve-3d;
   transition: all 1.0s linear;
   position: relative;
+  box-shadow: -5px 5px 5px #7A306C;
 }
 
 #f1_container:hover #f1_card {
   transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px #7A306C;
 }
 .face {
   position: absolute;
@@ -75,7 +76,7 @@ img{
   padding: 10px;
   color: white;
   text-align: center;
-  background-color: #aaa;
+  background-color: #7A306C;
 }
 
 
@@ -100,3 +101,7 @@ p li{
   font-size: 20px;
 }
 
+a{
+  color: white;
+  text-decoration: underline; 
+}
