@@ -1,13 +1,23 @@
-.container{
+.mainContainer{
   background-color:#FB5607;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
-  // height: 800px; 
+
+}
+
+.container{
+  background-color:#FB5607;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   font-family: 'Lobster', cursive;
   font-size: 20px;
+  padding: 150px 0px 20px 0px;
 }
 
 .aboutContainer{
@@ -17,27 +27,31 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  height:400px;
-
+ 
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    align-content: stretch;
+  }
   h1{
     font-family: 'Lobster', cursive;
     font-size: 80px;
   }
+
+  p{
+    font-family: 'Roboto Slab', serif;
+    // font-size: 15px;
+  }
+
 }
 
 .padding{
-  height:100px;
+  height:300px;
 }
-
-.img{
-  height: 50%;
-  width: 50%;
-}
-
-// .padding{
-//   height: 600px;
-// }
-
 
 .bubbleContainer{
   display:flex;
@@ -45,19 +59,20 @@
   justify-content: space-between;
  
   flex-wrap: wrap;
-  border: 1px solid black;
-  width: 45%; 
+  // border: 1px solid black;
+  width: 50%; 
 
 }
 
 .circle {
   width: 85px;
   height: 85px;
-  background: #FB5607;
+  background: white;
+
   border-radius: 50%;
   display:flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #FB5607;
 
 }
