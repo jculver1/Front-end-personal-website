@@ -6,15 +6,16 @@
         <div id="f1_card" class="shadow">
             <div class="front face">
                 <img src='{{project.img}}'/>
-                    <h1>{{project.name}}</h1>  
             </div>
             <div class="back face center">
-                <h5>Description:</h5>
+                <h1>{{project.name}}</h1>
+                <h3>Description:</h3>
                 <p>{{project.description}}</p>
-                <h5>Tech used:</h5>
+                <h3>Tech used:</h3>
                 <ul>
                     <li>{{project.tech}} </li>
                 </ul>
+                <a href="{{project.github}}">Visit the github repo!</a>
             </div>
         </div>
     </div>
