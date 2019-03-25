@@ -6,24 +6,40 @@
     justify-content:center;
     height: 800px;
     font-family: 'Lobster', cursive;
+    // background-color: lightblue
+    background-image: url('/assets/images/introbackground.jpg');
+    color: white;
+
+    h1{
+        font-size: 110px; 
+    }
+    h3{
+        font-size: 100px;
+    }
+    
 }
 
 .linkbox{
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-a{
-    color: grey; 
+a{  
+   
     text-decoration: none; 
 }
-    
 
 .circle {
     width: 300px;
     height: 300px;
-    background: white;
-    border: 10px solid grey;
+    background-image: url('/assets/images/selfie2.jpg');
+    border: 10px solid yellow;
     border-radius: 50%
+  }
+
+  img {
+    border-radius: 50%;
+    height: 50%;
+    width: 30%;
   }

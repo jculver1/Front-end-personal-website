@@ -1,22 +1,50 @@
 .container{
+  background-color: #F5F5F5;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 800px;
-  justify-content: center;
-}
-
-.aboutRow{
-  height: 99%;
-  width:49%;
+  flex-direction: column;
+  align-items: space-around;
+  align-content: space-around;
+  justify-content: space-around;
+  // height: 800px;
+ 
 }
 
 // .skillsRow{
-  
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   align-content: center;
+//   justify-content:center;
+//   height: 100%;
+//   width:55%;
+// }
 
+// .aboutRow{
+//   height: 99%;
+//   width:45%;
 // }
 
 
+.img{
+  height: 50%;
+  width: 50%;
+}
+
+// .padding{
+//   height: 600px;
+// }
+
+
+.bubbleContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  // width: 50%;
+
+}
 // .skillBox{
 //  border: 1px solid black;
 // }
