@@ -10,7 +10,22 @@
   .header{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
+    padding-top: 80px;
+    h1{
+      font-size: 100px;
+    }
+    h2{
+      font-size: 50px;
+    }
+  }
 
+  .links{
+    align-content: space-between;
+    align-items: space-between;
+    justify-content: space-between;
+
+    i{
+      font-size: 50px;
+    }
   }
