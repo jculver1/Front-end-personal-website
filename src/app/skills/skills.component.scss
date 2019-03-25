@@ -1,22 +1,40 @@
 .container{
-  background-color: #F5F5F5;
+  background-color:#FB5607;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
-  align-content: space-around;
-  justify-content: space-around;
-  // height: 800px;
- 
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  // height: 800px; 
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+.aboutContainer{
+  background-color:#FB5607;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height:400px;
+
+  h1{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+  }
+}
+
+.padding{
+  height:100px;
 }
 
 // .skillsRow{
 //   display: flex;
-//   flex-direction: column;
+//   // flex-direction: column;
 //   align-items: center;
 //   align-content: center;
 //   justify-content:center;
-//   height: 100%;
-//   width:55%;
 // }
 
 // .aboutRow{
@@ -38,11 +56,11 @@
 .bubbleContainer{
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-content: space-between;
+  justify-content: space-between;
+ 
   flex-wrap: wrap;
   border: 1px solid black;
-  // width: 50%;
+  width: 45%; 
 
 }
 // .skillBox{
@@ -57,8 +75,13 @@
 // }
 
 .circle {
-  width: 90px;
-  height: 90px;
-  background: red;
-  border-radius: 50%
+  width: 85px;
+  height: 85px;
+  background: #FB5607;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
 }

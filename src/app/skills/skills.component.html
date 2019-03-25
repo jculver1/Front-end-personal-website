@@ -1,24 +1,22 @@
-<div class='container'>
-  <!-- <div class='aboutRow'>
+  <div class='aboutContainer'>
     <h1>About Me</h1>
     <p>Hello! My name is Jessica and I'm a full-stack developer based in Denver, CO. I've been programming for the past couple of years. My background is in operations and analytics - my first programming language are Python and SQL. I've expanded my knowledge to include JavaScript and Web application frameworks. Please see a complete list of skills to the right! Or feel free to browse my projects (ADD PROJECTS URL) or contact me (ADD CONTACT URL)to learn more! 
     </p>
-  </div> -->
-  <div class='skillsRow'>
-    <div class="content">
-     <h1>Skills</h1>
+  </div>
+
+<div class='container'>
+     <h1>Tech I enjoy using (so far):</h1>
       <div class='bubbleContainer'>
         <div class='circle' *ngFor='let skill of skills.languages'>
           {{skill}}
         </div>
         <div class='circle' *ngFor='let skill of skills.frameworks'>
+          {{skill}}
+        </div>
+        <!-- <div class='circle' *ngFor='let skill of skills.other'>
             {{skill}}
-        </div>
-        <div class='circle' *ngFor='let skill of skills.other'>
-              {{skill}}
-        </div>
-    </div>  
-  </div>
-    <div class="padding"></div>
+        </div>    -->
 </div>
+
+<div class='padding'></div>
 

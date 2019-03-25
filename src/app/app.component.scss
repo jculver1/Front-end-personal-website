@@ -11,11 +11,11 @@
     h1{
         font-size: 110px; 
         align-self: center;
-        text-shadow: 3px 3px black;
+        text-shadow: 4px 4px black;
     }
     h3{
         font-size: 100px;
-        text-shadow: 2px 2px grey;
+        text-shadow: 4px 4px black;
     }
     
 }
@@ -29,13 +29,13 @@
     
 
 .linkbox{
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
     align-items: space-between;
-    text-shadow: 2px 2px grey;
+    text-shadow: 4px 4px black;
 }
 a{  
     color: white;
