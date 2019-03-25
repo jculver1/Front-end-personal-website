@@ -5,7 +5,7 @@
     <div id="f1_container" *ngFor="let project of projects">
         <div id="f1_card" class="shadow">
             <div class="front face">
-                <img src="../assets/images/1logo.jpg"/>
+                <img src='{{project.img}}'/>
                     <h1>{{project.name}}</h1>  
             </div>
             <div class="back face center">
