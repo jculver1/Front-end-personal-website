@@ -1,14 +1,16 @@
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 800px;
-    justify-content: space-between;
     background-color:#97F6A8;
+    font-family: 'Lobster', cursive;
   }
 
   .header{
     display: flex;
-    // justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
+
   }
