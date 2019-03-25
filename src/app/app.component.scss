@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    align-content: center;
     height: 800px;
     font-family: 'Lobster', cursive;
-    // background-color: lightblue
     background-image: url('/assets/images/introbackground.jpg');
     color: white;
-
+    // .title{
+    //     height: 50%;
+    // }
     h1{
         font-size: 110px; 
         align-self: center;
@@ -17,43 +20,26 @@
         font-size: 100px;
         text-shadow: 4px 4px black;
     }
-    
+
+    .linkbox{
+        // height: 50%;
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: space-between;
+        text-shadow: 4px 4px black;
+    }
+
 }
 
-// .item1{
-//     // display: flex;
-//     // flex-direction: row;
-//     // flex-direction: column;
-//     // align-items: center;
-// }
-    
 
-.linkbox{
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: space-between;
-    text-shadow: 4px 4px black;
-}
 a{  
     color: white;
     text-decoration: none; 
 }
 
-.circle {
-    width: 300px;
-    height: 300px;
-    background-image: url('/assets/images/selfie2.jpg');
-    border: 10px solid yellow;
-    border-radius: 50%
-  }
 
-  img {
-    border-radius: 50%;
-    height: 50%;
-    width: 30%;
-  }
 
-  
+
