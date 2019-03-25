@@ -71,6 +71,12 @@ img{
   color: white;
   text-align: center;
   background-color: #aaa;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  align-content: space-around;
+
 }
 
 
