@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content:center;
     height: 800px;
     font-family: 'Lobster', cursive;
     // background-color: lightblue
@@ -12,21 +10,35 @@
 
     h1{
         font-size: 110px; 
+        align-self: center;
+        text-shadow: 3px 3px black;
     }
     h3{
         font-size: 100px;
+        text-shadow: 2px 2px grey;
     }
     
 }
+
+// .item1{
+//     // display: flex;
+//     // flex-direction: row;
+//     // flex-direction: column;
+//     // align-items: center;
+// }
+    
 
 .linkbox{
     font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: space-between;
+    align-items: space-between;
+    text-shadow: 2px 2px grey;
 }
 a{  
-   
+    color: white;
     text-decoration: none; 
 }
 
@@ -43,3 +55,5 @@ a{
     height: 50%;
     width: 30%;
   }
+
+  
