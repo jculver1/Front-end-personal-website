@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 800px;
-    background-color:#97F6A8;
+    height: 900px;
+    // background-color:#97F6A8;
+    background-image: url('/assets/images/introbackground.jpg');
     font-family: 'Lobster', cursive;
+
   }
 
   .header{
